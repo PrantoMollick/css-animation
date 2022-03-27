@@ -1,0 +1,12 @@
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    transition: transform 2s;
+}
+
+img:hover {
+    /* transform: translateY(200px); */
+    transform: scale(.25);
+}

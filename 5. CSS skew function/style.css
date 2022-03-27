@@ -1,0 +1,13 @@
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    transition: transform 1s;
+}
+
+img:hover {
+   /* transform: skewX(-30deg); */
+   /* transform: skewY(-30deg); */
+   transform: skew(30deg, 40deg);
+}

@@ -1,0 +1,71 @@
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    transition: transform 1s;
+    /* transform origin worked
+    top, right, bottom, left
+
+    */
+    transform-origin: top;
+}
+
+img:hover {
+    transform: rotate(30deg);
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 50px auto;
+    transition: transform 1.5s;
+}
+
+div:hover {
+    transform: rotate(30deg);
+}
+
+.top {
+    transform-origin: top;
+}
+
+.right {
+    transform-origin: right;
+}
+
+.bottom {
+    transform-origin: bottom;
+}
+
+.left {
+    transform-origin: left;
+}
+
+.topright {
+    transform-origin: top right;
+}
+
+.bottomright {
+    transform-origin: bottom right;
+}
+
+.bottomleft {
+    transform-origin: bottom left;
+}
+
+.topleft {
+    transform-origin: top left;
+}
+/* take x percentage value */
+
+.percentage {
+    background: red;
+    transform-origin: 50% 50%;
+}
+
+.pixeles {
+    background: aquamarine;
+    transform-origin: 30px 50px;
+}

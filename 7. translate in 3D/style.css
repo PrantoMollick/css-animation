@@ -1,0 +1,21 @@
+/* 
+if you want to worked with 3d environment you need to declare prespective
+this prespective is viewer eyas and screen
+*/
+
+body {
+    perspective: 500px;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    transition: transform 1s;
+    transform-origin: top;
+}
+
+img:hover {
+    transform: translateZ(300px);
+}
